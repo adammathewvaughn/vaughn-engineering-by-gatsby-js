@@ -168,7 +168,7 @@ const IndexPage = () => {
       </ul>
       <img
         alt="Gatsby G Logo"
-        src="https://cdn.discordapp.com/attachments/870732357328601129/880954295246274570/pexels-mikhail-nilov-6963744.mp4"
+        src="https://cdn.discordapp.com/attachments/847941895615021056/872141894581362688/headshot.png"
       />
     </main>
   )
