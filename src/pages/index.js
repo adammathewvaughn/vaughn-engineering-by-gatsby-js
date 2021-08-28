@@ -2,7 +2,7 @@ import * as React from "react"
 
 // styles
 const pageStyles = {
-  backgroundImage: src="https://cdn.discordapp.com/attachments/870732357328601129/880974258921148426/vlcsnap-2021-08-27-18h46m21s512.png",
+  background:" #232129",
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
