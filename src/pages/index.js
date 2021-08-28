@@ -125,10 +125,10 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Vaughn Engineering by Gatsby</title>
-      <h1 style={headingStyles}>
-        Vaughn Engineering is proud to be a member of the Gatsby community!
+      <h1 style={headingStyles}><span style={headingAccentStyles}>
+        Vaughn Engineering</span> is proud to be a member of the Gatsby community!
         <br />
-        <span style={headingAccentStyles}>Special thanks to StackBlitz. </span>
+        <span style={headingAccentStyles}>Immediately available for contracts of any type, span, or size.  </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
