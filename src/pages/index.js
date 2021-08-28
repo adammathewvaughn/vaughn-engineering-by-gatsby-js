@@ -1,17 +1,5 @@
 import * as React from "react"
-import BackgroundImage from 'gatsby-background-image';
-const HeroBackgroundImage = styled(BackgroundImage)`
-      width: 100%;
-      height: 100vh;
-      opacity: 1 !important;
-      background-size: cover;
-      background: linear-gradient(
-        90.26deg,
-        #32C7E5, 
-        #F078D5
-      );
-      background-size: cover;
-    `;
+
 // styles
 const pageStyles = {
   // background:" #32C7E5 #F078D5",
@@ -184,6 +172,7 @@ const IndexPage = () => {
         alt="Gatsby G Logo"
         src="https://cdn.discordapp.com/attachments/847941895615021056/874750447410380860/headshoticon_-_Copy.jpg"
       />
+      <section class="copyright"><a href="https://vaughnengineering.gatsbyjs.io/">Vaughn Software Engineering</a> © 2021</section>
     </main>
   )
 }
