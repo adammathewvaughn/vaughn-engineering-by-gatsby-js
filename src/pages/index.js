@@ -1,8 +1,20 @@
 import * as React from "react"
-
+import BackgroundImage from 'gatsby-background-image';
+const HeroBackgroundImage = styled(BackgroundImage)`
+      width: 100%;
+      height: 100vh;
+      opacity: 1 !important;
+      background-size: cover;
+      background: linear-gradient(
+        90.26deg,
+        #32C7E5, 
+        #F078D5
+      );
+      background-size: cover;
+    `;
 // styles
 const pageStyles = {
-  background:" #32C7E5 #F078D5",
+  // background:" #32C7E5 #F078D5",
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
