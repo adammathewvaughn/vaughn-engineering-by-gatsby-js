@@ -2,6 +2,7 @@ import * as React from "react"
 
 // styles
 const pageStyles = {
+  backgroundImage: src="https://cdn.discordapp.com/attachments/870732357328601129/880974258921148426/vlcsnap-2021-08-27-18h46m21s512.png",
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
@@ -133,7 +134,8 @@ const IndexPage = () => {
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Gatsby Development is going on the resume immediately.So hip. So swank.
+        Gatsby Development is going on the resume immediately.
+         Hot Module Reloading... So hip. So swank.
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
@@ -168,7 +170,7 @@ const IndexPage = () => {
       </ul>
       <img
         alt="Gatsby G Logo"
-        src="https://cdn.discordapp.com/attachments/847941895615021056/872141894581362688/headshot.png"
+        src="https://cdn.discordapp.com/attachments/847941895615021056/874750447410380860/headshoticon_-_Copy.jpg"
       />
     </main>
   )
