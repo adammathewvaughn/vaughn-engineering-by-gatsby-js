@@ -2,7 +2,7 @@ import * as React from "react"
 
 // styles
 const pageStyles = {
-  background:" #32C7E5, #F078D5",
+  background:" #32C7E5 #F078D5",
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
