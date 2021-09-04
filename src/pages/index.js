@@ -2,8 +2,8 @@ import * as React from "react"
 
 // styles
 const pageStyles = {
-  // background:" #32C7E5 #F078D5",
-  color: "#232129",
+  background:"pink",
+  color: "##232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -13,7 +13,7 @@ const headingStyles = {
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#663399",
+  color: "#08D4DD",
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -31,7 +31,7 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#8954A8",
+  color: "#35E0B3",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
@@ -83,32 +83,25 @@ const links = [
     color: "#E95800",
   },
   {
-    text: "How to Guides",
+    text: "Kubernetes Deployments and Docker Containerization",
     url: "https://www.gatsbyjs.com/docs/how-to/",
     description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
+      "Practical solutions, affordably engineered to your specific goals.",
     color: "#1099A8",
   },
   {
-    text: "Reference Guides",
+    text: "Previous Deployments",
     url: "https://www.gatsbyjs.com/docs/reference/",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+      "Projects undertaken .",
     color: "#BC027F",
   },
   {
-    text: "Conceptual Guides",
+    text: "Technical Guides",
     url: "https://www.gatsbyjs.com/docs/conceptual/",
     description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
+      "Big-picture explanations of higher-level software concepts.",
     color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
   },
   {
     text: "Contact Vaughn Software Engineering",
@@ -126,11 +119,11 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Vaughn Engineering by Gatsby</title>
       <h1 style={headingStyles}><span style={headingAccentStyles}>
-        Vaughn Engineering</span> is proud to be a member of the Gatsby community!
+        Vaughn Software Engineering</span> is proud to be a member of the Gatsby community!
         <br />
         <span style={headingAccentStyles}>Immediately available for contracts of any type, span, or size.  </span>
         <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
+          
         </span>
       </h1>
       <p style={paragraphStyles}>
