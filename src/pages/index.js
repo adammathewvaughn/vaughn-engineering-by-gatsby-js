@@ -13,7 +13,7 @@ const headingStyles = {
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#08D4DD",
+  color: "rgb(15, 180, 187)",
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -31,7 +31,7 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#35E0B3",
+  color: "#038664",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
