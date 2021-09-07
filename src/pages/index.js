@@ -3,14 +3,13 @@ import * as React from "react"
 // styles
 const pageStyles = {
   background:"pink",
-  color: "##232129",
-  padding: 96,
+  color: "#8e6bf8",
+  padding: 16,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
 }
 const headingAccentStyles = {
   color: "rgb(15, 180, 187)",
@@ -20,13 +19,11 @@ const paragraphStyles = {
 }
 
 const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
+  marginBottom: 56,
 }
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
-  maxWidth: 560,
   marginBottom: 30,
 }
 
@@ -44,7 +41,7 @@ const docLinkStyle = {
 }
 
 const descriptionStyle = {
-  color: "#232129",
+  color: "#4713e4",
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
@@ -76,7 +73,7 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Tutorial",
+    text: "Gatsby Tutorial",
     url: "https://www.gatsbyjs.com/docs/tutorial/",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
@@ -84,23 +81,23 @@ const links = [
   },
   {
     text: "Kubernetes Deployments and Docker Containerization",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
+    url: "https://www.youtube.com/watch?v=5aWb8Z7b_Tc&t=1737s",
     description:
-      "Practical solutions, affordably engineered to your specific goals.",
+      "Practical containerized-solutions, affordably engineered to your specific goals.",
     color: "#1099A8",
   },
   {
-    text: "Previous Deployments",
-    url: "https://www.gatsbyjs.com/docs/reference/",
+    text: "Previous Endeavors and Current Deployments",
+    url: "https://github.com/adammathewvaughn",
     description:
-      "Projects undertaken .",
+      "Portfolio of Projects Undertaken by Vaughn Software Engineering.",
     color: "#BC027F",
   },
   {
-    text: "Technical Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
+    text: "Blog Forum and Technical Guides",
+    url: "https://vaughn-software-engineering.ghost.io/",
     description:
-      "Big-picture explanations of higher-level software concepts.",
+      "Subscribe now for big-picture explanations of higher-level software concepts.",
     color: "#0D96F2",
   },
   {
@@ -121,7 +118,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}><span style={headingAccentStyles}>
         Vaughn Software Engineering</span> is proud to be a member of the Gatsby community!
         <br />
-        <span style={headingAccentStyles}>Immediately available for contracts of any type, span, or size.  </span>
+        <span style={headingAccentStyles}>Available immediately for contracts of any type, span, or size.</span>
         <span role="img" aria-label="Party popper emojis">
           
         </span>
