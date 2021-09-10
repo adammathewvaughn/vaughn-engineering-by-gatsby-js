@@ -118,14 +118,13 @@ const IndexPage = () => {
       <h1 style={headingStyles}><span style={headingAccentStyles}>
         Vaughn Software Engineering</span> is proud to be a member of the Gatsby community!
         <br />
-        <span style={headingAccentStyles}>Available immediately for contracts of any type, span, or size.</span>
+        <span style={headingAccentStyles}>Special thanks to Vaughn Software Mom © for the early- investment! Love you, Mom.</span>
         <span role="img" aria-label="Party popper emojis">
           
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Gatsby Development is going on the resume immediately.
-         Hot Module Reloading... So hip. So swank.
+      GatsbyJS is one of the many front-end scaffolding platforms utilized by Vaughn Software Engineering. Call today to price your custom front and back-end builds!
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
@@ -133,6 +132,7 @@ const IndexPage = () => {
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
+          rel="noreferrer" target="_blank"
             style={linkStyle}
             href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
           >
@@ -143,6 +143,7 @@ const IndexPage = () => {
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
               <a
+              rel="noreferrer" target="_blank"
                 style={linkStyle}
                 href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
@@ -162,7 +163,7 @@ const IndexPage = () => {
         alt="Gatsby G Logo"
         src="https://cdn.discordapp.com/attachments/847941895615021056/874750447410380860/headshoticon_-_Copy.jpg"
       />
-      <section class="copyright"><a href="https://vaughnengineering.gatsbyjs.io/">Vaughn Software Engineering</a> © 2021</section>
+      <section class="copyright"><a href="https://twitter.com/adammathewv/" rel="noreferrer" target="_blank">Vaughn Software Engineering</a> © 2021</section>
     </main>
   )
 }
