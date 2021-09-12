@@ -2,6 +2,9 @@ import * as React from "react"
 
 // styles
 const pageStyles = {
+  display: "flex",
+  justifyContent: "center",
+  flexDirection: "column",
   background:"pink",
   color: "#8e6bf8",
   padding: 16,
