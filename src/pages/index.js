@@ -119,19 +119,15 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Vaughn Engineering by Gatsby</title>
       <h1 style={headingStyles}><span style={headingAccentStyles}>
-        Vaughn Software Engineering</span> is proud to be a member of the Gatsby community!
+        Vaughn Software Engineering</span> is proud to be a member of the GatsbyJS community! 
         <br />
-        <span style={headingAccentStyles}>Special thanks to Vaughn Software Mom © for the early- investment! Love you, Mom.</span>
+        <span style={headingAccentStyles}>We're eager to serve all of your software and web development needs! Please contact us today for a quick, friendly, chat and a free estimate.</span>
         <span role="img" aria-label="Party popper emojis">
-          
         </span>
       </h1>
       <p style={paragraphStyles}>
-      GatsbyJS is one of the many front-end scaffolding platforms utilized by Vaughn Software Engineering. Call today to price your custom front and back-end builds!
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
+      GatsbyJS is one of the many front-end scaffolding platforms utilized by Vaughn Software Engineering. We also implement VueJS, ReactJS, and SvelteJS0--- as well as other popular front-end frameworks.
+          </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
