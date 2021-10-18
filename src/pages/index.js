@@ -126,7 +126,8 @@ const IndexPage = () => {
         </span>
       </h1>
       <p style={paragraphStyles}>
-      GatsbyJS is one several unique SPA/PWA scaffolding platforms utilized by Vaughn Software Engineering. We also implement VueJS, ReactJS, and SvelteJS. As well as implementing these and other popular, cutting-edge frameworks, our engineers are comprehensively trained and fundamentally sound in such foundational frameworks as 'vanilla JavaScript' DOM manipulation and jQuery. </p>
+      GatsbyJS is one several unique SPA/PWA scaffolding platforms utilized by Vaughn Software Engineering. We also implement VueJS, ReactJS, and SvelteJS. 
+      As well as implementing these and other popular, cutting-edge frameworks, our engineers are comprehensively trained and fundamentally sound in such foundational frameworks as 'vanilla JavaScript' DOM manipulation and jQuery. </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
