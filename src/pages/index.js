@@ -158,6 +158,28 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
+      <h1 style={headingStyles}><span style={headingAccentStyles}>
+      Vaughn Software Engineering</span> is proud to be a member of the Bruzu community!
+      <br />
+      <span style={headingAccentStyles}>At Vaughn Software Engineering we're always learning and evolving, and we're proud to integrate new and innovative technologies to meet the needs of our customers in an ever-changing landscape.</span>
+   
+    </h1>
+<span class="bruzu-btn bruzu-btn-theme-light bruzu-btn-size-l">
+    <span class="bruzu-btn-i"></span>
+    Design With Bruzu
+</span>
+
+<script src="https://bruzu.com/button/api.js?v1" data-onPublish="show" data-apiUrl="https://img.bruzu.com/?bc=red"></script>
+
+
+  {function show(data) {
+    result.src = data;
+  }}
+
+
+<br />
+
+<img id="result"/>
       <img
         alt="Gatsby G Logo"
         src="https://cdn.discordapp.com/attachments/847941895615021056/874750447410380860/headshoticon_-_Copy.jpg"
