@@ -161,7 +161,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}><span style={headingAccentStyles}>
       Vaughn Software Engineering</span> is proud to be a member of the Bruzu community!
       <br />
-      <span style={headingAccentStyles}>At Vaughn Software Engineering we're always learning and evolving, and we're proud to integrate new and innovative technologies to meet the needs of our customers in an ever-changing landscape.</span>
+      <span style={headingAccentStyles}>At Vaughn Software Engineering we're always learning and evolving, and we're proud to integrate new and innovative technologies to meet the needs<br /> of our customers in an ever-changing landscape.</span>
    
     </h1>
 <span class="bruzu-btn bruzu-btn-theme-light bruzu-btn-size-l">
