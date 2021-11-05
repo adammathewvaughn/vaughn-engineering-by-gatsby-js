@@ -83,13 +83,6 @@ const links = [
     color: "#E95800",
   },
   {
-    text: "Kubernetes Deployments and Docker Containerization",
-    url: "https://www.youtube.com/watch?v=5aWb8Z7b_Tc&t=1737s",
-    description:
-      "Practical containerized-solutions, affordably engineered to your specific goals.",
-    color: "#1099A8",
-  },
-  {
     text: "Previous Endeavors and Current Deployments",
     url: "https://github.com/adammathewvaughn",
     description:
