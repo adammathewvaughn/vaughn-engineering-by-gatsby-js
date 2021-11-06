@@ -76,10 +76,10 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Gatsby Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
+    text: "StackBlitz Project Portfolio ",
+    url: "https://stackblitz.com/@adammathewvaughn",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "StackBlitz is the preferred online development environment of choice for Vaughn Software Engineering.",
     color: "#E95800",
   },
   {
