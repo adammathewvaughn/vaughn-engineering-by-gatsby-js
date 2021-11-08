@@ -79,7 +79,7 @@ const links = [
     text: "StackBlitz Project Portfolio ",
     url: "https://stackblitz.com/@adammathewvaughn",
     description:
-      "StackBlitz is the preferred online development environment of choice for Vaughn Software Engineering.",
+      `StackBlitz is the preferred online development environment of choice for Vaughn Software Engineering.`,
     color: "#E95800",
   },
   {
