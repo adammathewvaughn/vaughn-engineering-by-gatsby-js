@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 // styles
 const pageStyles = {
@@ -98,7 +99,7 @@ const links = [
   },
   {
     text: "Contact Vaughn Software Engineering",
-    url: "https://www.linkedin.com/in/vaughn-software-engineering/",
+    url: "https://www.linkedin.com/in/adam-m-vaughn/",
     badge: true,
     description:
       "Contact us today to manage all of your software and web development needs!",
@@ -151,35 +152,22 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
-      <h1 style={headingStyles}><span style={headingAccentStyles}>
-      Vaughn Software Engineering</span> is now a member of the Bruzu community!
-      <br />
-      <span style={headingAccentStyles}>At Vaughn Software Engineering we're always learning and evolving, and we're proud to integrate new and innovative technologies like Bruzu to meet the needs<br /> of our customers in an ever-changing landscape.</span>
-   
-    </h1>
-<span class="bruzu-btn bruzu-btn-theme-light bruzu-btn-size-l">
-    <span class="bruzu-btn-i"></span>
-    Design With Bruzu
-</span>
-
-<script src="https://bruzu.com/button/api.js?v1" data-onPublish="show" data-apiUrl="https://img.bruzu.com/?bc=red"></script>
-
-
-  {function show(data) {
-    result.src = data;
-  }}
-
-
-<br />
-
-<img id="result"/>
-      <img
-        alt="Gatsby G Logo"
-        src="https://cdn.discordapp.com/attachments/847941895615021056/874750447410380860/headshoticon_-_Copy.jpg"
-      />
+      export function Dino() {
+  return (
+    <StaticImage
+      src="../images/dino.png"
+      alt="A dinosaur"
+      placeholder="blurred"
+      layout="fixed"
+      width={200}
+      height={200}
+    />
+  )
+}
       <section class="copyright"><a href="https://twitter.com/adammathewv/" rel="noreferrer" target="_blank">Vaughn Software Engineering</a> © 2021</section>
     </main>
   )
+ 
 }
 
 export default IndexPage

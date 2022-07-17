@@ -1,31 +1,27 @@
 body {
 display: flex;
 flex-direction: column;
-
 size: 100vh;
 align-items: center;
 justify-content: center;
-
 opacity: 1 !important;
 background-size: cover;
 background-color:#ffdfe5;
 text-align: center;
-
 }
 
-main {  background:pink;
+main { 
+    background-size: cover;
+    height: 100%;
+    background:pink;
     color:#d3c8f5;
     padding:6px;
     font-family:-apple-system, Roboto, sans-serif, serif;
 }
 
-img {
-    width: 50%;
-    height: 25%;
+.copyright {
+    display: flex;
+    justify-content: center;
 }
 
-.copyright {
-   display: flex;
-   justify-content: center;
-   
-}
+
