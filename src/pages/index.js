@@ -152,19 +152,17 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
-      export function Dino() {
-  return (
+ 
     <StaticImage
-      src="../images/dino.png"
+      src="C:\Users\adamm\Desktop\Practice\vaughn-engineering-by-gatsby-js\src\images\headshotcropped.jpg"
       alt="A dinosaur"
       placeholder="blurred"
       layout="fixed"
       width={200}
       height={200}
     />
-  )
-}
-      <section class="copyright"><a href="https://twitter.com/adammathewv/" rel="noreferrer" target="_blank">Vaughn Software Engineering</a> © 2021</section>
+
+      <section className="copyright"><a href="https://twitter.com/adammathewv/" rel="noreferrer" target="_blank">Vaughn Software Engineering</a> © 2021</section>
     </main>
   )
  
